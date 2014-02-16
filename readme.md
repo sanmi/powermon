@@ -9,7 +9,7 @@ The Current Cost Envi sends two types of messages, real-time and historical.  At
 * USB to serial port adapter for your Current Cost device
 * Breakout board with a green LED on channel 17 (just to indicate program status)  
 
-# Python Retup
+# Python Setup
 To setup your raspberry pi with the correct python libraries:
 * sudo apt-get install python-dev
 * sudo apt-get install python-rpi.gpio

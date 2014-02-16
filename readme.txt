@@ -6,11 +6,10 @@ System requirements:
 * Raspberry Pi running Rhasberian wheezy (http://raspberrypi.org)
 * Current Cost Envi (http://www.currentcost.com/)
 * USB to serial port adapter for your Current Cost device
-* Breakout board with green and red LEDs (just to indicate program status)  
-** GREEN_LED = 17
+* Breakout board with a green LED on channel 17 (just to indicate program status)  
 
-
-to setup your raspberry pi with the correct python libraries:
+To setup your raspberry pi with the correct python libraries:
+* sudo apt-get install python-rpi.gpio
 * sudo pip install pyserial
 * sudo apt-get install libxml2-dev
 * sudo apt-get install libxslt-dev

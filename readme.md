@@ -17,3 +17,8 @@ To setup your raspberry pi with the correct python libraries:
 * sudo apt-get install libxml2-dev
 * sudo apt-get install libxslt-dev
 * sudo pip install lxml
+
+# Output
+Data is output as a CSV file on your Raspberry Pi.  Here's what it looks like in excel:
+
+![sample data](https://github.com/sanmi/powermon/blob/master/samples/cc_data_screenshot.png?raw=true "Sample Data")
